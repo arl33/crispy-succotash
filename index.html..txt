@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical and Operational Problems</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #1a1d23; color: #e9ecef; font-family: New Times Roman; }
+        .navbar { background-color: #242933; border-bottom: 2px solid #00adb5; }
+        .card { background-color: #2e3440; border: none; color: white; margin-bottom: 20px; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .why-box { border-left: 4px solid #00adb5; padding-left: 15px; margin: 10px 0; background: #3b4252; padding: 10px; border-radius: 5px; }
+        .root-cause { background-color: #bf616a !important; font-weight: bold; }
+        footer { padding: 20px; text-align: center; color: #666; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand text-info fw-bold" href="#">Technical and Operational Problems</a>
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#solutions">Solutions</a>
+            <a class="nav-link" href="#about">About Team</a>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="text-info">The Problem Statement</h2>
+            <div class="card p-4">
+                <p class="lead">The company's primary web application experienced a 2-hour total outage during peak traffic hours, resulting in lost revenue and customer frustration.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-info">5 Whys Analysis</h2>
+            <div class="why-box"><strong>1. Why?</strong> The database became overloaded and stopped responding.</div>
+            <div class="why-box"><strong>2. Why?</strong> A sudden spike in requests exceeded server capacity.</div>
+            <div class="why-box"><strong>3. Why?</strong> A new marketing campaign launched without technical prep.</div>
+            <div class="why-box"><strong>4. Why?</strong> Marketing and IT tools are not synchronized.</div>
+            <div class="why-box root-cause text-white"><strong>5. Root Cause:</strong> No cross-departmental protocol for high-traffic events.</div>
+        </div>
+    </div>
+</section>
+
+<section id="solutions" class="container mt-5 pt-5">
+    <h2 class="text-center text-info mb-4">Proposed Solutions</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card p-3 h-100">
+                <h5>Automated Scaling</h5>
+                <p>Implement cloud auto-scaling to handle traffic surges automatically, and prevent future database overloads.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 h-100">
+                <h5>Integrated Roadmap</h5>
+                <p>Sync Marketing and IT calendars using a shared project management tool, to eliminate communication problems between departments.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 h-100">
+                <h5>Launch Protocol</h5>
+                <p>Establish a "Go/No-Go" checklist that serves as a final quality gate before launching any major campaigns.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="container mt-5 pt-5">
+    <div class="card p-5">
+        <h2 class="text-center text-info">Our Team Roles</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-4"><strong>Operations Lead:</strong> Renz Jhervy F. Sison</div>
+            <div class="col-md-4"><strong>Assistant:</strong> Jahnneia Precious Yanga</div>
+            <div class="col-md-4"><strong>Coder:</strong> Earl Daniel M. Zabarte</div>
+            <div class="col-md-4"><strong>Researcher:</strong> Dynynz Paez</div>
+            <div class="col-md-4"><strong>Researcher:</strong> Ervic Shann Avila</div>
+            <div class="col-md-4"><strong>Researcher:</strong> Wade Lordy Casiedo</div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Root Cause Analysis Group</p>
+</footer>
+
+</body>
+</html>
